@@ -1,0 +1,18 @@
+<header class="header">
+  <div class="brand">
+    <span class="logo">🛍️</span>
+    <span class="title">ShopSmart</span>
+  </div>
+
+  <div class="search">
+    <input placeholder="Search for products, brands and more" />
+  </div>
+
+  <div class="actions">
+    <button class="cart">
+      <span class="icon">🛒</span>
+      <span>Cart</span>
+      <span class="badge" *ngIf="cartCount">{{ cartCount }}</span>
+    </button>
+  </div>
+</header>

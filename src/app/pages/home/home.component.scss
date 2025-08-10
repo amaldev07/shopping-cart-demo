@@ -1,0 +1,56 @@
+.banner {
+    background: linear-gradient(135deg, #e0ecff, #f3f6ff);
+    border-radius: 14px;
+    margin: 16px;
+    padding: 40px 24px;
+    text-align: center;
+}
+
+.banner-inner h1 {
+    margin: 0 0 8px;
+    font-size: 28px;
+    color: #1f2937;
+}
+
+.banner-inner p {
+    margin: 0 0 16px;
+    color: #374151;
+}
+
+.banner-inner button {
+    border: none;
+    background: #2874f0;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    gap: 10px;
+    padding: 12px 16px;
+    overflow-x: auto;
+}
+
+.categories button {
+    border: 1px solid #e5e7eb;
+    background: #fff;
+    color: #374151;
+    padding: 8px 12px;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.categories button.active {
+    background: #2874f0;
+    border-color: #2874f0;
+    color: #fff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}

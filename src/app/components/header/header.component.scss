@@ -1,0 +1,63 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    display: grid;
+    grid-template-columns: 220px 1fr 160px;
+    gap: 16px;
+    align-items: center;
+    padding: 10px 16px;
+    background: #2874f0;
+    color: #fff;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.title {
+    font-size: 20px;
+    letter-spacing: .5px;
+}
+
+.search input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background: #225fd1;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.badge {
+    background: #ffde59;
+    color: #1f2937;
+    font-weight: 700;
+    border-radius: 999px;
+    padding: 2px 8px;
+    margin-left: 6px;
+}

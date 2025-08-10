@@ -1,0 +1,13 @@
+<article class="card">
+  <div class="thumb">
+    <img [src]="product.imageUrl" [alt]="product.title" loading="lazy" />
+  </div>
+  <div class="info">
+    <h3 class="title" title="{{ product.title }}">{{ product.title }}</h3>
+    <div class="meta">
+      <span class="price">₹{{ product.price | number:'1.0-0' }}</span>
+      <span class="rating">⭐ {{ product.rating }}</span>
+    </div>
+    <button (click)="add.emit()">Add to Cart</button>
+  </div>
+</article>
