@@ -1,10 +1,12 @@
+// src/app/data/mock-products.ts
 export type Category = 'Electronics' | 'Clothing' | 'Groceries';
 
 export interface Product {
   id: string;
   title: string;
-  price: number;
-  imageUrl: string;
-  rating: number; // 1-5
+  price: number;            // in INR for example
+  rating: number;           // 0–5
   category: Category;
+  imageUrl: string;
+  description?: string;
 }
